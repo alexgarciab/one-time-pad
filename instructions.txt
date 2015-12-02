@@ -1,0 +1,17 @@
+Server:
+
+1.- Open a command shell.
+2.- go to the folder where the server jar (optserver.jar) was unzipped, using the cd command
+3.- execute the following command:
+java -jar optserver.jar -p <port-number> -k <key>
+
+Client:
+
+1.- Open a command shell.
+2.- go to the folder where the client jar (optclient.jar) was unzipped, using the cd command
+3.- execute the following command:
+java -jar optclient.jar -p <port-number> -t <IP/hostname> -k <key> -s <message>
+
+Notes:
+
+To test both applications, the server must be running first
